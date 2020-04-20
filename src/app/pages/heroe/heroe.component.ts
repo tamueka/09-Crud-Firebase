@@ -45,7 +45,7 @@ export class HeroeComponent implements OnInit {
   peticion.subscribe(resp => {
 
     Swal.fire({
-      title: 'this.heroe.nombre',
+      title: this.heroe.nombre,
       text: 'Se actualizo correctamente',
       icon: 'success',
     });
